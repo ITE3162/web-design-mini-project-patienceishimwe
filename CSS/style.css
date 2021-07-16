@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+}
+header{
+    width: 100%;
+    height: 400px;
+    background-image: url("../Images/Background.jpeg");
+    background-size: cover ;
+    background-position:100% 70%;
+}
+
+header img{
+    position: absolute;
+    width: 135px;
+    height: 150px;
+margin-top: 0px;
+margin-left: 0px;
+}
+  /* .menu{ 
+      display: flex;
+      justify-content: space-between;
+  }
+  */
+  .menu{
+    color: #0f110c;
+
+  }
+nav{
+
+    float: right;
+    width: 40%;
+}
+
+nav ul{
+    display: flex; 
+    justify-content: space-around;   
+}
+
+nav ul li{
+
+    list-style: none;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+nav ul li a:hover{
+    color: #ffffff;
+}
+
+.Hero-Section{
+    text-align: center;
+    padding-top: 60px;
+}
+.Hero-Section h2{
+    font-family: 'Rhodium Libre';
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.Hero-Section p{
+    font-family: 'Palanquin Dark';
+    color:#ffffff ;
+}
+.About-Section{
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.About-Section h1{
+    font-family: 'Prata';
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
+.About-Section img{
+    width: 175px;
+    height: 175px;
+    float: left;
+    padding-left: 80px;
+    padding-right: 30px;
+}
+.About-Section h3{
+    font-family: 'Radley'; 
+    padding-left: 20px; 
+}
+.About-Section p{
+    font-family: 'Prata';
+    margin: 35px;
+    width: 60%;
+    text-align: center;
+}
+
+.Service-Section {
+    margin-left: 20px;
+}
+.Service-Section h1{
+    font-family: 'Prata';
+    color: #000;
+    text-align: center;
+    padding: 15px;
+}
+.Service-Section img{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+.Service-Section h5{
+    font-family: 'Prata';   
+    color: #000;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+.Service-Section p{
+    font-family: 'Imprima';
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.Service-Section .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+} 
+.Project-Section{
+    margin-left: 20px;
+}
+.Project-Section h1{
+    font-family: 'Prata';
+    color: #000;
+    text-align: center;
+    padding: 15px;
+}
+.Project-Section img{
+    width: 420px;
+    height: 300px;
+    margin: auto;
+}
+.Contact-Section{
+    margin-left: 20px;
+}
+.Contact-Section h1{
+    font-family: 'Prata';
+    color: #000;
+    text-align: center;
+    padding: 15px;
+}
+.Contact-Section img{
+    width: 35px;
+    height: 35px;
+    margin:auto;
+    padding: 15px;
+}
+
+.Contact-Section input[type=email],textarea{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    border-color: #000;
+}
+
+.Contact-Section label{
+    font-family: 'Pridi';
+    font-size: 25px;
+}
+.Contact-Section input[type=button]{
+    border-radius: 7px;
+    padding: 5px;
+    font-family: 'Pridi';
+}
+.Contact-Section h3{
+    font-family: 'Pridi';
+    text-align: center;
+    font-size: 25px;
+}
+
+.Contact-Section a{
+    text-decoration: none;
+}
